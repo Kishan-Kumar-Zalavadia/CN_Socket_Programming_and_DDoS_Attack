@@ -41,5 +41,11 @@ def main():
     tcp_syn_flood_attack(disIP, disPort, num_requests)  # TCP SYN flood attack
     """
 
+    # disPort = 65525
+    # num_requests = 100000
+    # disIP = '127.0.0.1'
+
+    # tcp_syn_flood_attack(disIP, disPort, num_requests)  # TCP SYN flood attack
+
 if __name__ == '__main__':
     main()

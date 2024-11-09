@@ -19,8 +19,10 @@ def main():
 
     # 2. Multi-thread programming examples in Python
 
+    """
     run_a_thread() # Run a single thread
     run_threads() # Run multiple threads
+    """
 
     # 3. Socket Programming examples, Please use an independent terminal to run main_server.py to start the socket server first.
 
