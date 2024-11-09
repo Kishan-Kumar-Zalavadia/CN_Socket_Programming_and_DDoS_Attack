@@ -9,7 +9,7 @@ import sys
 from multithreading_programming_example import run_a_thread, run_threads
 from socket_programming_example_client import socket_example_client
 from socket_programming_example_server import socket_example_server
-from tcp_syn_flood_attack import tcp_syn_flood_attack
+# from tcp_syn_flood_attack import tcp_syn_flood_attack
 
 
 def main():
@@ -30,6 +30,7 @@ def main():
     #socket_example_server() # Server side
     socket_example_client() # Client side
     """
+    socket_example_client()
 
     # 4. Tcp syn flood attack examples. Please use an independent terminal to run main_server.py to start the socket server first.
 

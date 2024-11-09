@@ -9,7 +9,7 @@ import sys
 from multithreading_programming_example import run_a_thread, run_threads
 from socket_programming_example_client import socket_example_client
 from socket_programming_example_server import socket_example_server
-from tcp_syn_flood_attack import tcp_syn_flood_attack
+# from tcp_syn_flood_attack import tcp_syn_flood_attack
 
 
 def main():
