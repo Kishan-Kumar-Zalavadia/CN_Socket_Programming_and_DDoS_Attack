@@ -16,7 +16,7 @@ def socket_example_client():
     # Send data and receive response in a try/except block to handle any errors that may occur.
     try:
         # Connect to the server
-        print(f"Connecting to server at {server_host}:{server_port}")
+        print(f"Connecting to the server at {server_host}:{server_port}")
         client_socket.connect((server_host, server_port))
         
         # Send data

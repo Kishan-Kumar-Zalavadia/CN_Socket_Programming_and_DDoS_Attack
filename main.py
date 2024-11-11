@@ -30,7 +30,7 @@ def main():
     #socket_example_server() # Server side
     socket_example_client() # Client side
     """
-    # socket_example_client()
+    socket_example_client()
 
     # 4. Tcp syn flood attack examples. Please use an independent terminal to run main_server.py to start the socket server first.
 
@@ -41,11 +41,11 @@ def main():
 
     tcp_syn_flood_attack(disIP, disPort, num_requests)  # TCP SYN flood attack
     """
-    disPort = 65525
-    num_requests = 100000
-    disIP = '127.0.0.1'
+    # disPort = 65525
+    # num_requests = 100000
+    # disIP = '127.0.0.1'
 
-    tcp_syn_flood_attack(disIP, disPort, num_requests)  # TCP SYN flood attack
+    # tcp_syn_flood_attack(disIP, disPort, num_requests)  # TCP SYN flood attack
 
 
 if __name__ == '__main__':

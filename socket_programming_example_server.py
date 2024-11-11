@@ -36,7 +36,7 @@ def socket_example_server():
                     if data:
                         print(f"Received: {data}")
                         # Send acknowledgment
-                        response = "Hello, I am server, received your message: " + data
+                        response = "Hello, I am the server, received your message: " + data
                         client_socket.send(response.encode())
                     else:
                         print("No more data from client")
